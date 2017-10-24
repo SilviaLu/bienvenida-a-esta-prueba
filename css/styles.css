@@ -7,13 +7,17 @@ body{
     padding: 0px; /*quitando margin ypaddin por defecto*/
 }
 /*clases eutilizables*/
-.tex-uppercase {/*h1,h3,li tambien es valido en vez de poner text-uppercase*/ 
-    text-transform:uppercase;
+.text-uppercase {/*h1,h3,li tambien es valido en vez de poner text-uppercase*/ 
+    text-transform: uppercase;
 }
 /*clases especificas*/
 li a{
 text-decoration: none;
 color: inherit;
+}
+li:hover{
+    color:#db964a; /*color laboratoria*/
+
 }
 ul li{
     display: inline;
@@ -23,6 +27,7 @@ ul li{
 .logo-header {
     width: 200px;
     height: 200px;
+    transition: 5s;
 }
 header{
     position: relative;
@@ -38,6 +43,42 @@ nav {
 
 }
 .box-header{
-    display: inline
+    display: inline-block;
+}
+.logo-square {
+    width: 80px;
+    height: 80px;
+}
+section{
+    text-align: center;
+   
+}
+div { /*se le puede poner una clase que seria mejor*/
+    box-sizing: inherit; /*con inherit hereda lo del padre*/
+    display: inline-block;
+    width: 33%;
+    padding: ipx;
+     /*se le puede poner padding para no estar poniendo 3%*/
+}
+[class^="icon-"], [class*=" icon-"] {
+    font-size: 40px;
+}
+[class^="icon-"]:hover, [class*=" icon-"]:hover{
+    color: red;
+}
+
+
+footer{
+    background-color: #303030;
+    color: white;
+    padding: 5px;
+    text-align: center; 
+}
+.btn{
+    background color: ##db964a;
+    border: none;
+    border-radius:5px;
+    font-family: inherit;
+    padding: 10px;
 
 }
