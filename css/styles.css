@@ -75,10 +75,20 @@ footer{
     text-align: center; 
 }
 .btn{
-    background color: ##db964a;
+    background-color: #db964a;
     border: none;
     border-radius:5px;
     font-family: inherit;
     padding: 10px;
-
 }
+buttom{
+    border: 0;
+    background-color: yellowgreen;
+    
+}
+button:hover{
+    background: red;
+    color: green;
+    transition: 3s;
+}
+/*  */
