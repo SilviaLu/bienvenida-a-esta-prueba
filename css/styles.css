@@ -1,0 +1,43 @@
+/*setear cambiar valores que viee por defecto*/
+body{
+    box-sizing: border-box; /*para que todo este dentro de mi caja*/
+    color: #303030;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 0px; /*quitando margin ypaddin por defecto*/
+}
+/*clases eutilizables*/
+.tex-uppercase {/*h1,h3,li tambien es valido en vez de poner text-uppercase*/ 
+    text-transform:uppercase;
+}
+/*clases especificas*/
+li a{
+text-decoration: none;
+color: inherit;
+}
+ul li{
+    display: inline;
+    margin: 10px;
+    list-style: none;
+}
+.logo-header {
+    width: 200px;
+    height: 200px;
+}
+header{
+    position: relative;
+}
+nav {
+    /*float: rigth;*/
+    position: absolute; 
+    /*padding: 10px;*/
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%)
+    /**/
+
+}
+.box-header{
+    display: inline
+
+}
