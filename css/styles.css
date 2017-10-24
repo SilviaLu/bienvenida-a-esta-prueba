@@ -51,13 +51,13 @@ nav {
 }
 section{
     text-align: center;
-   
 }
+
 div { /*se le puede poner una clase que seria mejor*/
-    box-sizing: inherit; /*con inherit hereda lo del padre*/
+    box-sizing: border-box; /*con inherit hereda lo del padre*/
     display: inline-block;
     width: 33%;
-    padding: ipx;
+    padding: 5px;
      /*se le puede poner padding para no estar poniendo 3%*/
 }
 [class^="icon-"], [class*=" icon-"] {
@@ -65,8 +65,8 @@ div { /*se le puede poner una clase que seria mejor*/
 }
 [class^="icon-"]:hover, [class*=" icon-"]:hover{
     color: red;
+    transition: 5s;
 }
-
 
 footer{
     background-color: #303030;
